@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My portfolio
 
-## Getting Started
+<img src="https://raw.githubusercontent.com/GuiMoraesDev/myportfolio/main/public/img/icon-512.png" alt="A letter dark gray G in shape of a triangle centralized inside a blue triangle  in front of a dark gray circle" height="100px" align="right" />
 
-First, run the development server:
+[![next](https://img.shields.io/badge/nextjs-%5E13.3.4-white?logo=Next.js)](https://nextjs.org/)
+[![typescript](https://img.shields.io/badge/typescript-%5E5.0.4-blue?logo=Typescript)](https://www.typescriptlang.org/)
 
-```bash
-npm run dev
-# or
+</br>
+
+<small>All badges are links to each doc</small>
+
+## Description of that project 📖
+
+A static website to be my personal portfolio;
+
+## Project Links
+
+- 📝[Figma Project](https://www.figma.com/file/9suTX5Z9gUJI257PzSHqbM/Personal-Website?node-id=103%3A2)
+- 📱[Production Link](www.guimoraes.dev/)
+
+## Requirements 🛑
+
+### Mandatory
+
+For development, you will need some software installed in your environment.
+
+- [NodeJS](https://nodejs.org/en/download/),
+
+### Optional
+
+To improve your experience and enjoy each linter, here are some extensions </br>
+<small>For VSCode, if you use another editor, please look at your marketplace</small>
+
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+- [Editorconfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
+
+## Configuring your Project 🧰
+
+Yarn will install all dependencies into all projects, start and build them
+
+```batch
+yarn install
 yarn dev
-# or
-pnpm dev
+yarn build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Linters 🧹
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+## Project Maintenance 👨‍🔧
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Project is using Angular Commits Guide Line, for more information, click on this [link](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format).
