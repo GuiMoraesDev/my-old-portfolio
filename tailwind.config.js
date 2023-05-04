@@ -13,8 +13,10 @@ module.exports = {
         "brand-pink": "#DEC0BA",
         "brand-black-lighter": "#3F3F3F",
         "brand-black-light": "#1E1E1E",
-        "brand-pink-shadow": "box-shadow: 0px 3px 10px 2px #DEC0BA4D",
       },
+      boxShadow: {
+        "brand-pink": "0px 3px 10px 2px #DEC0BA4D",
+      }
     },
   },
   plugins: [],

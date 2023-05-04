@@ -7,7 +7,7 @@ export const Header = () => {
   const { theme, handleToggleTheme } = useTheme();
 
   return (
-    <header className="mb-11 flex w-full items-center justify-end">
+    <header className="mb-12 flex w-full items-center justify-end p-3">
       <button onClick={handleToggleTheme}>
         {theme === "light" ? (
           <SunDim size={36} className="text-brand-black-light" />
