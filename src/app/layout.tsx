@@ -1,21 +1,19 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+import "./globals.css";
+import { Inter, Lato } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ weight: "600", subsets: ["latin"] });
 
 export const metadata = {
   referrer: "origin-when-cross-origin",
   keywords: ["confer-all", "Confer All", "Next.js", "React", "JavaScript"],
   authors: { name: "Guilherme Moraes" },
-  themeColor: "#333333",
-  colorScheme: "dark",
   creator: "Guilherme Moraes",
   publisher: "Guilherme Moraes",
   title: {
     default: "Guilherme Moraes | Frontend engineer",
     template: "%s | Guilherme Moraes",
   },
-  description: 'I am a passionate front-end engineer',
+  description: "I am a passionate front-end engineer",
   formatDetection: {
     email: false,
     address: false,
@@ -50,21 +48,20 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Guilherme Moraes | Frontend engineer",
-    description:
-      "I am a passionate front-end engineer",
+    description: "I am a passionate front-end engineer",
     creator: "Guilherme Moraes",
     images: ["https://www.guimoraes.dev/img/cover.webp"],
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }

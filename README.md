@@ -15,7 +15,7 @@ A static website to be my personal portfolio;
 
 ## Project Links
 
-- 📝[Figma Project](https://www.figma.com/file/9suTX5Z9gUJI257PzSHqbM/Personal-Website?node-id=103%3A2)
+- 📝[Figma Project](https://www.figma.com/file/9suTX5Z9gUJI257PzSHqbM/Personal-Website?node-id=515%3A583&t=9h0Rq0jBriureeyz-1)
 - 📱[Production Link](www.guimoraes.dev/)
 
 ## Requirements 🛑
@@ -40,19 +40,16 @@ To improve your experience and enjoy each linter, here are some extensions </br>
 
 ## Configuring your Project 🧰
 
-Yarn will install all dependencies into all projects, start and build them
+Use NPM to install all dependencies into the project and start the developer server
 
 ```batch
-yarn install
-yarn dev
-yarn build
+npm install
+npm run dev
 ```
 
 ## Project Linters 🧹
 
 - [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [EditorConfig](https://editorconfig.org/)
 
 ## Project Maintenance 👨‍🔧
 
