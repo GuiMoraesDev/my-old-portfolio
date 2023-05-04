@@ -1,7 +1,5 @@
+import { inter, lato } from "@/fonts/fonts";
 import "./globals.css";
-import { Inter, Lato } from "next/font/google";
-
-const inter = Inter({ weight: "600", subsets: ["latin"] });
 
 export const metadata = {
   referrer: "origin-when-cross-origin",
@@ -61,7 +59,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" id="root">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${lato.variable}`}>{children}</body>
     </html>
   );
 }

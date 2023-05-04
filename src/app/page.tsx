@@ -1,10 +1,12 @@
-import { Header } from "@/components/atoms/Header";
+import { Header } from "@/components/molecules/Header";
+import { HeroSection } from "@/components/organisms/HeroSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-2 bg-white dark:bg-brand-black-light">
+    <main className="flex min-h-screen flex-col items-center bg-white p-3 dark:bg-brand-black-light">
       <Header />
-      Guilherme Moraes
+
+      <HeroSection />
     </main>
   );
 }

@@ -1,20 +1,26 @@
 "use client";
 
-import { useState } from "react";
-
-const rootElement = document.querySelector("html#root");
+import { useEffect, useState } from "react";
 
 type UseDarkModeReturn = [boolean, () => void];
 
 export const useDarkMode = (): UseDarkModeReturn => {
+  const [rootElement, setRootElement] = useState<Element | null>(null);
+
+  useEffect(() => {
+    setRootElement(document?.querySelector("html#root"));
+  }, []);
+
   const [isDarkMode, setIsDarkMode] = useState(
     () => !!rootElement?.classList.contains("dark")
   );
 
   const handleToggleDarkMode = () => {
-    rootElement?.classList.toggle("dark");
+    if (rootElement) {
+      rootElement?.classList.toggle("dark");
 
-    setIsDarkMode((state) => !state);
+      setIsDarkMode((state) => !state);
+    }
   };
 
   return [isDarkMode, handleToggleDarkMode];
