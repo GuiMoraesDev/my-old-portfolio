@@ -1,3 +1,4 @@
+import { HeroImage } from "@/components/atoms/HeroImage";
 import { lato } from "@/fonts/fonts";
 
 export const HeroSection = () => {
@@ -15,6 +16,10 @@ export const HeroSection = () => {
           Passionate frontend developer with a experience for tackling complex
           challenges and delivering innovative solutions.
         </h2>
+      </section>
+
+      <section>
+        <HeroImage />
       </section>
     </div>
   );

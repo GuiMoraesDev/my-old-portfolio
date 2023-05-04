@@ -1,18 +1,18 @@
 "use client";
 
-import { useDarkMode } from "@/hooks/useDarkMode";
+import { useTheme } from "@/context/theme";
 import { MoonStars, SunDim } from "@phosphor-icons/react";
 
 export const Header = () => {
-  const [isDarkMode, handleToggleDarkMode] = useDarkMode();
+  const { theme, handleToggleTheme } = useTheme();
 
   return (
     <header className="mb-11 flex w-full items-center justify-end">
-      <button onClick={handleToggleDarkMode}>
-        {isDarkMode ? (
-          <MoonStars size={36} className="text-brand-white-dark" />
-        ) : (
+      <button onClick={handleToggleTheme}>
+        {theme === "light" ? (
           <SunDim size={36} className="text-brand-black-light" />
+        ) : (
+          <MoonStars size={36} className="text-brand-white-dark" />
         )}
       </button>
     </header>
