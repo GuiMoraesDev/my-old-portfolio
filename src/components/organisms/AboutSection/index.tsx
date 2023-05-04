@@ -1,9 +1,9 @@
 export const AboutSection = () => {
   return (
-    <section className="flex flex-col gap-8 p-16">
+    <section className="flex flex-col gap-8 p-16 text-black dark:text-white">
       <h2 className="text-2xl font-medium">More about me</h2>
 
-      <article className="flex flex-col gap-4">
+      <article className="flex flex-col gap-4 ">
         <p>
           I&apos;m an experienced front-end developer with a strong passion for
           delivering innovative, high-quality solutions.

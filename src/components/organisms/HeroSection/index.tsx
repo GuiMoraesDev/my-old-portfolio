@@ -14,7 +14,7 @@ export const HeroSection = () => {
             Hi, <br /> I am Guilherme Moraes
           </h1>
 
-          <h2 className="px-2 text-center text-black dark:text-white font-medium">
+          <h2 className="px-2 text-center font-medium text-black dark:text-white">
             Passionate frontend developer with a experience for tackling complex
             challenges and delivering innovative solutions.
           </h2>
