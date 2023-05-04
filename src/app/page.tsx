@@ -1,6 +1,7 @@
 "use client";
 
 import { Header } from "@/components/molecules/Header";
+import { AboutSection } from "@/components/organisms/AboutSection";
 import { HeroSection } from "@/components/organisms/HeroSection";
 import { ThemeProvider } from "@/context/theme";
 
@@ -11,6 +12,8 @@ export default function Home() {
         <Header />
 
         <HeroSection />
+
+        <AboutSection />
       </main>
     </ThemeProvider>
   );
