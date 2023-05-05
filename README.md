@@ -7,6 +7,12 @@
 
 </br>
 
+<a href="https://www.linkedin.com/in/guimoraesdev/">
+<img src="https://raw.githubusercontent.com/GuiMoraesDev/my-portfolio/main/public/img/cover.png" alt="A letter dark gray G in shape of a triangle centralized inside a blue triangle  in front of a dark gray circle"/>
+</a>
+
+</ br>
+
 <small>All badges are links to each doc</small>
 
 ## Description of that project 📖
@@ -46,6 +52,10 @@ Use NPM to install all dependencies into the project and start the developer ser
 npm install
 npm run dev
 ```
+
+## Project structure
+
+Use [Atomic design](https://bradfrost.com/blog/post/atomic-web-design/) to organize and maintain this project
 
 ## Project Linters 🧹
 
