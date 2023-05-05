@@ -1,5 +1,4 @@
 import { HeroImage } from "@/components/atoms/HeroImage";
-import { lato } from "@/fonts/fonts";
 import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 
 export const HeroSection = () => {
