@@ -21,6 +21,13 @@ module.exports = {
         inter: "var(--inter-sans)",
         lato: "var(--lato-sans)",
       },
+      keyframes: {
+        shimmer: {
+          "100%": {
+            transform: "translateX(100%)",
+          },
+        },
+      },
     },
   },
   plugins: [],
