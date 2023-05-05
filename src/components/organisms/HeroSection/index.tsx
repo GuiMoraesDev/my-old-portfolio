@@ -31,6 +31,7 @@ export const Section = () => {
           <a
             href="https://github.com/GuiMoraesDev"
             className="flex flex-col items-center justify-center text-brand-black-light dark:text-brand-white-dark"
+            target="_blank"
           >
             <GithubLogo size={44} />
             <p>Github</p>
@@ -39,6 +40,7 @@ export const Section = () => {
           <a
             href="https://www.linkedin.com/in/guimoraesdev/"
             className="flex flex-col items-center justify-center text-brand-black-light dark:text-brand-white-dark"
+            target="_blank"
           >
             <LinkedinLogo size={44} />
             <p>LinkedIn</p>
