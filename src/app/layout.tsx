@@ -59,7 +59,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" id="root">
-      <body className={`${inter.className} ${lato.variable}`}>{children}</body>
+      <body className={`${inter.className} ${lato.className}`}>{children}</body>
     </html>
   );
 }

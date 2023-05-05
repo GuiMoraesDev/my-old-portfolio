@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
+  darkMode: "class",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,7 +16,11 @@ module.exports = {
       },
       boxShadow: {
         "brand-pink": "0px 3px 10px 2px #DEC0BA4D",
-      }
+      },
+      fontFamily: {
+        inter: "var(--inter-sans)",
+        lato: "var(--lato-sans)",
+      },
     },
   },
   plugins: [],

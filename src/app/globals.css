@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 html {
-  font-family: inter;
-  font-family: lato;
+  font-family: Inter, Lato, sans-serif;
 }
