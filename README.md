@@ -8,10 +8,10 @@
 </br>
 
 <a href="https://www.linkedin.com/in/guimoraesdev/">
-<img src="https://raw.githubusercontent.com/GuiMoraesDev/my-portfolio/main/public/img/cover.png" alt="A letter dark gray G in shape of a triangle centralized inside a blue triangle  in front of a dark gray circle"/>
+  <img src="https://raw.githubusercontent.com/GuiMoraesDev/my-portfolio/main/public/img/cover.png" alt="A letter dark gray G in shape of a triangle centralized inside a blue triangle  in front of a dark gray circle" height="300px"/>
 </a>
 
-</ br>
+</br>
 
 <small>All badges are links to each doc</small>
 
