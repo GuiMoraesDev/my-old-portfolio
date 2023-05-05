@@ -1,7 +1,8 @@
 "use client";
 
-import { useTheme } from "@/context/theme";
 import { MoonStars, SunDim } from "@phosphor-icons/react";
+
+import { useTheme } from "@/context/theme";
 
 export const Header = () => {
   const { theme, handleToggleTheme } = useTheme();

@@ -1,7 +1,8 @@
-import { HeroImage } from "@/components/atoms/HeroImage";
 import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 
-export const HeroSection = () => {
+import { HeroImage } from "@/components/atoms/HeroImage";
+
+export const Section = () => {
   return (
     <div className="flex h-full flex-col items-center justify-end overflow-hidden">
       <div className="flex h-full flex-col items-center justify-end gap-8">

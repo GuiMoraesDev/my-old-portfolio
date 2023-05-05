@@ -1,14 +1,15 @@
 "use client";
 
+import { Suspense } from "react";
+
 import { Header } from "@/components/molecules/Header";
-import { AboutSection } from "@/components/organisms/AboutSection";
-import { HeroSection } from "@/components/organisms/HeroSection";
+import { Section as AboutSection } from "@/components/organisms/AboutSection";
+import { Section as HeroSection } from "@/components/organisms/HeroSection";
 import {
   Section as ProjectsSection,
   Loading as ProjectsLoading,
 } from "@/components/organisms/ProjectsSection";
 import { ThemeProvider } from "@/context/theme";
-import { Suspense } from "react";
 
 export default async function Home() {
   return (

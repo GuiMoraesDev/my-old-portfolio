@@ -1,5 +1,6 @@
-import { getPinnedRepos } from "@/graphql/queries";
 import { ReactNode } from "react";
+
+import { getPinnedRepos } from "@/graphql/queries";
 
 export const Section = async (): Promise<ReactNode> => {
   const data = await getPinnedRepos();

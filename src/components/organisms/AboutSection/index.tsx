@@ -1,4 +1,4 @@
-export const AboutSection = () => {
+export const Section = () => {
   return (
     <section className="flex flex-col gap-8 p-16 text-black dark:text-white">
       <h2 className="text-2xl font-medium">More about me</h2>
