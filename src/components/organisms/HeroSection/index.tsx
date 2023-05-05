@@ -5,13 +5,13 @@ import { HeroImage } from "@/components/atoms/HeroImage";
 export const Section = () => {
   return (
     <div className="flex h-full flex-col items-center justify-end overflow-hidden">
-      <div className="flex h-full flex-col items-center justify-end gap-8">
+      <div className="flex h-full flex-col items-center justify-end gap-8 px-20">
         <section className="flex flex-col items-center justify-center gap-8">
           <h1 className="text-center font-lato text-xl text-brand-black-light dark:text-brand-white-dark">
             Hi, <br /> I am Guilherme Moraes
           </h1>
 
-          <h2 className="px-2 text-center font-medium text-black dark:text-white">
+          <h2 className="text-center font-medium text-black dark:text-white">
             Passionate frontend developer with a experience for tackling complex
             challenges and delivering innovative solutions.
           </h2>
