@@ -14,7 +14,7 @@ import { ThemeProvider } from "@/context/theme";
 export default async function Home() {
   return (
     <ThemeProvider>
-      <main className="flex min-h-screen flex-col items-center bg-white dark:bg-brand-black-light">
+      <main className="flex min-h-screen flex-col items-center bg-white dark:bg-brand-black-light transition:all ease-linear delay-400 overflow-hidden">
         <Header />
 
         <HeroSection />
