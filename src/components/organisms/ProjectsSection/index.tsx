@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 
 import { getPinnedRepos } from "@/graphql/queries";
 
-export const Section = async (): Promise<ReactNode> => {
+export const Section = async () => {
   const data = await getPinnedRepos();
 
   return (
