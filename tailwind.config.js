@@ -56,7 +56,7 @@ module.exports = {
       },
       animation: {
         "apply-opacity": "apply-opacity 0ms 300ms linear",
-        "vanish-delay": "vanish 10ms 300ms linear 1 normal forwards",
+        "vanish-delay": "vanish 10ms 300ms linear 1 normal both",
       },
     },
   },
