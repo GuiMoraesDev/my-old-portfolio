@@ -5,7 +5,7 @@ type GithubRequestProps = {
     pinnedItems: {
       nodes: Array<{
         id: string;
-        homepageUrl: string;
+        homepageUrl?: string;
         url: string;
         name: string;
         description: string;

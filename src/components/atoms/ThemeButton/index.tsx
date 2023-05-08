@@ -11,6 +11,8 @@ export const ThemeButton = () => {
     <div className="relative">
       <button
         onClick={handleToggleTheme}
+        title="Toggle theme"
+        aria-label="Toggle theme"
         className={`relative flex h-10 w-10 items-center justify-center rounded-full bg-brand-white-dark text-black shadow-md transition-all dark:bg-brand-black-lighter`}
       >
         <LightbulbFilament size={26} className="z-10" />

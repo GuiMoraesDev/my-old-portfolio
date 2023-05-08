@@ -37,9 +37,16 @@ export const Section = async () => {
                 <p className="capitalize">{project.title}</p>
 
                 <nav className="flex items-center gap-8">
-                  <a href={project.project_link} target="_blank">
-                    <Link size={20} />
-                  </a>
+                  {project.project_link ? (
+                    <a
+                      href={project.project_link}
+                      aria-label={`${project.title} link: ${project.project_link}`}
+                      title={`${project.title} link: ${project.project_link}`}
+                      target="_blank"
+                    >
+                      <Link size={20} />
+                    </a>
+                  ) : null}
 
                   <a href={project.github_link} target="_blank">
                     <GithubLogo size={20} />
