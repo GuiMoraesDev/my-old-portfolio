@@ -37,25 +37,14 @@ module.exports = {
             transform: "translateX(100%)",
           },
         },
-
         vanish: {
           "100%": {
             display: 'none',
             opacity: 0,
           },
         },
-
-        "apply-opacity": {
-          "0%, 90%": {
-            opacity: 1,
-          },
-          "100%": {
-            opacity: 0,
-          },
-        },
       },
       animation: {
-        "apply-opacity": "apply-opacity 0ms 300ms linear",
         "vanish-delay": "vanish 10ms 300ms linear 1 normal both",
       },
     },
