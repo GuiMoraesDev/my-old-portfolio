@@ -8,7 +8,7 @@ export const Section = async () => {
   const data = await getPinnedRepos();
 
   return (
-    <section className="flex  w-full flex-col gap-8 p-16 text-black dark:text-white">
+    <section className="container flex  w-full flex-col gap-8 p-16 text-black dark:text-white">
       <h2 className="text-2xl font-medium">Best projects</h2>
 
       <ul className="flex w-full flex-col gap-6">
@@ -20,7 +20,7 @@ export const Section = async () => {
           return (
             <li
               key={project.id}
-              className={`flex w-10/12 flex-col gap-3 ${
+              className={`flex w-10/12 max-w-[45%] flex-col gap-3 ${
                 positionLeft && "ml-auto"
               } ${positionCenter && "mx-auto"} ${positionRight && "mr-auto"}`}
             >
@@ -73,24 +73,22 @@ function Skeleton() {
 
 export const Loading = () => {
   return (
-    <>
-      <section className="flex  w-full flex-col gap-8 p-16 text-black dark:text-white">
-        <h2 className="text-2xl font-medium">Best projects</h2>
+    <section className=" container flex w-full flex-col gap-8 p-16 text-black dark:text-white">
+      <h2 className="text-2xl font-medium">Best projects</h2>
 
-        <ul className="flex w-full flex-col gap-6">
-          <li className="mr-auto flex w-10/12 flex-col gap-3">
-            <Skeleton />
-          </li>
+      <ul className="flex w-full flex-col gap-6">
+        <li className="mr-auto flex w-10/12 max-w-[45%] flex-col gap-3">
+          <Skeleton />
+        </li>
 
-          <li className="mx-auto flex w-10/12 flex-col gap-3">
-            <Skeleton />
-          </li>
+        <li className="mx-auto flex w-10/12 max-w-[45%] flex-col gap-3">
+          <Skeleton />
+        </li>
 
-          <li className="ml-auto flex w-10/12 flex-col gap-3">
-            <Skeleton />
-          </li>
-        </ul>
-      </section>
-    </>
+        <li className="ml-auto flex w-10/12 max-w-[45%] flex-col gap-3">
+          <Skeleton />
+        </li>
+      </ul>
+    </section>
   );
 };
