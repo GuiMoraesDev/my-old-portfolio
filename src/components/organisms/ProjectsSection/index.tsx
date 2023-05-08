@@ -40,15 +40,20 @@ export const Section = async () => {
                   {project.project_link ? (
                     <a
                       href={project.project_link}
-                      aria-label={`${project.title} link: ${project.project_link}`}
-                      title={`${project.title} link: ${project.project_link}`}
+                      aria-label={`${project.title} project link: ${project.project_link}`}
+                      title={`${project.title} project link: ${project.project_link}`}
                       target="_blank"
                     >
                       <Link size={20} />
                     </a>
                   ) : null}
 
-                  <a href={project.github_link} target="_blank">
+                  <a
+                    href={project.github_link}
+                    aria-label={`${project.title} github link: ${project.project_link}`}
+                    title={`${project.title} github link: ${project.project_link}`}
+                    target="_blank"
+                  >
                     <GithubLogo size={20} />
                   </a>
                 </nav>
